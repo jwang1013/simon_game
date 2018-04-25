@@ -209,7 +209,7 @@ function userSequence(padObj) {
       padLightOn(id);
       game.userIndex++;
       // win!
-      if (game.userIndex == 2) {
+      if (game.userIndex == 20) {
         game.lock = true;
         $(".pad").removeClass("clickable").addClass("unclickable");
         game.toHdl = setTimeout(function(){
