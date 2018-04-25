@@ -1,0 +1,22 @@
+{
+  "name": "jwang1013-simon-game",
+  "version": "1.0.0",
+  "description": "This is a classic simon game simulator. Please enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwang1013/simon_game.git"
+  },
+  "keywords": [
+    "simongame"
+  ],
+  "author": "Jun Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwang1013/simon_game/issues"
+  },
+  "homepage": "https://github.com/jwang1013/simon_game#readme"
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>simon game working version</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323|Patua+One|Righteous|Jura|Fascinate+Inline|Kanit|Macondo">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+  <div class="simonBoard">
+    <div id="0" class="pad green unclickable"></div>
+    <div id="1" class="pad red unclickable"></div>
+    <div id="2" class="pad yellow unclickable"></div>
+    <div id="3" class="pad blue unclickable"></div>
+    <div class="controls">
+      <div class="title">SIMON</div>
+      <div class="display inline">
+        <h1 class="count led-off">--</h1>
+        <h3 class = "label">COUNT</h3>
+      </div>
+      <div class="btn-box inline">
+        <div class="start unclickable inline" id="startBtn"></div>
+        <h3 class = "label">START</h3>
+      </div>
+      <div class="btn-box inline">
+        <div class="strict unclickable inline" id="strictBtn"></div>
+        <h3 class = "label">STRICT</h3>
+        <div class = "led" id = "mod-led"></div>
+      </div>
+      
+      <div class="switchContainer">
+        <p class="off label inline">OFF</p>
+        <div class="outer-switch inline clickable">
+          <div class="inner-switch" id="sw"></div>
+        </div>
+        <p class="on label inline">ON</p>
+      </div>
+    </div>
+  </div>
+  <div class="helper">  
+    <div class="lifes">
+      <div class="inline userLife">Life</div>
+      <div class="inline" id="life1"><i class="fa fa-heart" id="heart1"></i><i class="fa fa-heart-o" id="heart2"></i></div>
+      <div class="inline" id="life2"><i class="fa fa-heart" id="heart1"></i><i class="fa fa-heart-o" id="heart2"></i></div>
+      <div class="inline" id="life3"><i class="fa fa-heart" id="heart1"></i><i class="fa fa-heart-o" id="heart2"></i></div>
+      <div class="inline" id="life4"><i class="fa fa-heart" id="heart1"></i><i class="fa fa-heart-o" id="heart2"></i></div>
+      <div class="inline" id="life5"><i class="fa fa-heart" id="heart1"></i><i class="fa fa-heart-o" id="heart2"></i></div>
+    </div>
+    <div class="instr">
+      <h3 class="how">How to play:</h3>
+      <p class="p1">This device will create a series of tones and lights. You need to repeat the sequence. If you succeeds, the series becomes progressively longer and more complex. Once you fails:</p>
+      <ul class="uL">
+        <li>in strict mode: the game is over.</li>
+        <li>in non-strict mode: you will lose one life and game is over when no life left (You have 5 lives in total).</li>
+      </ul>
+      <h3 class="tryIt">Try it! Have Fun!</h3>
+    </div>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
