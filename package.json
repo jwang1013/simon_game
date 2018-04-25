@@ -21,5 +21,6 @@
   "homepage": "https://github.com/jwang1013/simon_game#readme",
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+  "devDependencies": {}
 }
